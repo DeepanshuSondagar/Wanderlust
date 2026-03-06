@@ -22,7 +22,7 @@ const userRouter = require("./routers/user.js");
 
 
 // const MONGODB_url = "mongodb://127.0.0.1:27017/wanderlust";
-const altasUrl = process.env.ALTASDB_URL || "mongodb://127.0.0.1:27017/wanderlust";
+const altasUrl = process.env.ATLASDB_URL || "mongodb://127.0.0.1:27017/wanderlust";
 
 main().then(()=>{
     console.log("Successful connection");
